@@ -22,7 +22,7 @@ bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/
 ## Restore Launchpad from Configuration
 
 ```bash
-curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/tests-MacBook-Air.yml | lporg load -
+curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/tests-MacBook-Air.yml -o /tmp/launchpad-config.yml && lporg load /tmp/launchpad-config.yml
 ```
 
 ## Grey Wallpaper
