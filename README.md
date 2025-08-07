@@ -12,6 +12,12 @@ for some reason disappears spotlight
 bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/re_enable_launchpad.sh)
 ```
 
+## Restore Launchpad from Configuration
+
+```bash
+lporg load <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/tests-MacBook-Air.yml)
+```
+
 ## Grey Wallpaper
 
 ```bash
