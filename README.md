@@ -19,6 +19,26 @@ bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
+## Install Software with Brewfile
+
+First, download the Brewfile and install the bundle extension:
+
+```bash
+curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/Brewfile -o Brewfile
+brew bundle install
+```
+
+Or if you've cloned this repository:
+
+```bash
+brew bundle install
+```
+
+This will install:
+- Google Chrome
+- Alacritty (terminal)
+- Rectangle (window management)
+
 ## Restore Launchpad from Configuration
 
 ```bash
