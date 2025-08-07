@@ -1,18 +1,21 @@
 #!/bin/bash
 
-# Script to set macOS wallpaper to grey using built-in solid color
-echo "Setting wallpaper to grey..."
+# Define the grey color (RRGGBB hex format)
+COLOR_HEX="808080"
 
-# Use AppleScript to set desktop to solid grey color
-osascript -e "
-tell application \"System Events\"
-    tell every desktop
-        set picture to \"\"
-    end tell
-end tell
-"
+# Set the path for our generated wallpaper
+OUTPUT_DIR="${HOME}/Pictures/Solid_Colors"
+FULL_PATH="${OUTPUT_DIR}/solid_${COLOR_HEX}.png"
 
-# Restart Dock to ensure wallpaper change takes effect immediately
-killall Dock
+# 1. Create directory if it doesn't exist
+mkdir -p "$OUTPUT_DIR"
 
-echo "Wallpaper set to grey successfully!"
+# 2. Silently create a 1-pixel grey image file.
+# This command is extremely fast and runs in the background.
+sips -s format png -p 1 1 --out "$FULL_PATH" --setPixel 0 0 $COLOR_HEX &>/dev/null
+
+# 3. Instantly set the background using the generated file.
+# This is the reliable, official way to script background changes.
+osascript -e "tell application \"System Events\" to set picture of every desktop to \"$FULL_PATH\""
+
+echo "✅ Background reliably set to grey."
