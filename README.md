@@ -11,3 +11,9 @@ for some reason disappears spotlight
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/re_enable_launchpad.sh)
 ```
+
+## Grey Wallpaper
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/set_grey_wallpaper.sh)
+```
