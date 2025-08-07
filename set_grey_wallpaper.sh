@@ -12,4 +12,7 @@ tell application \"System Events\"
 end tell
 "
 
+# Restart Dock to ensure wallpaper change takes effect immediately
+killall Dock
+
 echo "Wallpaper set to grey successfully!"
