@@ -41,6 +41,7 @@ apps:
                 - iPhone Mirroring
                 - Passwords
                 - System Settings
+                - Chess
             - number: 2
               items:
                 - Apps
@@ -81,12 +82,6 @@ apps:
                 - Tips
                 - Magnifier
                 - Feedback Assistant
-        - folder: Games
-          pages:
-            - number: 1
-              items:
-                - Chess
-                - Games
 widgets:
   pages: []
 dock_items:
