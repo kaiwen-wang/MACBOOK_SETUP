@@ -5,6 +5,7 @@
 tap "blacktop/tap"
 
 # Formulae
+brew "fish"
 brew "lporg"
 
 # Browsers
@@ -24,6 +25,9 @@ cask "keepassxc"
 cask "openinterminal-lite"
 cask "openineditor-lite"
 cask "raycast"
+cask "hiddenbar"
+cask "shottr"
+cask "zotero"
 
 # Note: Git is included with Xcode Command Line Tools
 # Install with: xcode-select --install
