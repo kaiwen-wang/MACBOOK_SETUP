@@ -24,6 +24,7 @@ cask "visual-studio-code"
 cask "keepassxc"
 cask "openinterminal-lite"
 cask "openineditor-lite"
+cask "raycast"
 
 # Note: Git is included with Xcode Command Line Tools
 # Install with: xcode-select --install
