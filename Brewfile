@@ -2,7 +2,6 @@
 # Install with: brew bundle
 
 # Taps
-tap "homebrew/cask"
 tap "blacktop/tap"
 
 # Formulae
