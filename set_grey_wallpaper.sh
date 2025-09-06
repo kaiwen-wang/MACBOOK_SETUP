@@ -12,7 +12,7 @@ mkdir -p "$OUTPUT_DIR"
 
 # 2. Silently create a 1-pixel grey image file.
 # This command is extremely fast and runs in the background.
-sips -s format png -p 1 1 --out "$FULL_PATH" --setPixel 0 0 $COLOR_HEX &>/dev/null
+magick -size 1x1 xc:#$COLOR_HEX "$FULL_PATH"
 
 # 3. Instantly set the background using the generated file.
 # This is the reliable, official way to script background changes.
