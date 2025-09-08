@@ -24,8 +24,8 @@ bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/
 First, download the Brewfile and install the bundle extension:
 
 ```bash
-curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/Brewfile -o Brewfile
-brew bundle install
+curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/Brewfile -o ~/Downloads/Brewfile
+cd ~/Downloads && brew bundle install
 ```
 
 Or if you've cloned this repository:
