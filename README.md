@@ -55,4 +55,8 @@ curl -sL https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/main/set_gr
 
 
 
-etst git cmomit
+## Change default shell to fish
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/fish_default_shell.sh)
+```
