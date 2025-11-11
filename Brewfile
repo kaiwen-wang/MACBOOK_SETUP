@@ -28,6 +28,10 @@ cask "raycast"
 cask "hiddenbar"
 cask "shottr"
 cask "zotero"
+cask "qbserve"
+cask "figma"
+cask "obsidian"
+cask "ogdesign-eagle"
 
 # Note: Git is included with Xcode Command Line Tools
 # Install with: xcode-select --install
