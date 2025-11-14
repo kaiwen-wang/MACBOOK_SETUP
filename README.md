@@ -12,7 +12,6 @@ for some reason disappears spotlight
 bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/re_enable_launchpad.sh)
 ```
 
-
 ## Brew
 
 ```bash
@@ -35,6 +34,7 @@ brew bundle install
 ```
 
 This will install:
+
 - Google Chrome
 - Alacritty (terminal)
 - Rectangle (window management)
@@ -53,10 +53,14 @@ bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/
 
 curl -sL https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/main/set_grey_wallpaper.sh | bash
 
-
-
 ## Change default shell to fish
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/fish_default_shell.sh)
+```
+
+## Desktop Cleanup (Hot Corners & Widgets)
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/desktop_cleanup.sh)
 ```
