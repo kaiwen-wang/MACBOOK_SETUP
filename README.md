@@ -70,3 +70,7 @@ bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/
 git config --global user.name "USER_NAME"
 git config --global user.email "USER_EMAIL"
 ```
+
+
+<!-- Do mise, npm other version setups -->
+TODO put dock on side again
