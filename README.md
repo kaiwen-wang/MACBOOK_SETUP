@@ -53,6 +53,8 @@ bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/
 bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/desktop_cleanup.sh)
 ```
 
+## Night Shift
+- Some way to set it permanently instead of scheduled? would be nice.
 
 ## Next steps
 
@@ -60,3 +62,9 @@ bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/
     - Sync extensions, bookmarks, settings, New Tab Redirect
 - Log into VS Code
     - Sync extensions
+    - Set fish as default terminal (select default terminal)
+
+```bash
+git config --global user.name "USER_NAME"
+git config --global user.email "USER_EMAIL"
+```
