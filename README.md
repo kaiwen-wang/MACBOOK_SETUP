@@ -27,25 +27,13 @@ curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/m
 cd ~/Downloads && brew bundle install
 ```
 
-Or if you've cloned this repository:
-
-```bash
-brew bundle install
-```
-
-This will install:
-
-- Google Chrome
-- Alacritty (terminal)
-- Rectangle (window management)
-
 ## Restore Launchpad from Configuration
 
 ```bash
 curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/tests-MacBook-Air.yml -o /tmp/launchpad-config.yml && lporg load --config /tmp/launchpad-config.yml
 ```
 
-## Grey Wallpaper
+## Grey Wallpaper (NOT WORKING TODO)
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/set_grey_wallpaper.sh)
@@ -66,4 +54,9 @@ bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/
 ```
 
 
-test readme
+## Next steps
+
+- Log into Chrome
+    - Sync extensions, bookmarks, settings, New Tab Redirect
+- Log into VS Code
+    - Sync extensions

@@ -36,7 +36,6 @@ cask "ogdesign-eagle"
 # Recording & Streaming
 cask "keycastr"
 cask "obs"
-cask "quickrecorder"
 
 # Note: Git is included with Xcode Command Line Tools
 # Install with: xcode-select --install
