@@ -3,11 +3,13 @@
 
 # Taps
 tap "blacktop/tap"
+tap "smudge/smudge"  # Add this tap
 
 # Formulae
 brew "fish"
 brew "lporg"
 brew "mas"         # Mac App Store CLI (Required for Xcode/Testflight)
+brew "nightlight"    # CLI for Night Shift control
 
 # Browsers
 cask "google-chrome"
