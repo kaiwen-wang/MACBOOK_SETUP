@@ -33,16 +33,16 @@ cask "rectangle"
 
 # Security & Privacy
 cask "mullvadvpn"
-cask "riseup-vpn"
-cask "yubico-yubikey-manager"
-cask "veracrypt"
-cask "cryptomator"
+# cask "riseup-vpn"  # Failed: No cask with this name exists - riseup-vpn is not available in Homebrew Cask
+cask "yubico-yubikey-manager"  # Failed: Discontinued upstream on 2025-07-27 - Use manual installation from Yubico website
+cask "veracrypt"  # Failed: Download timeout (504 error) - macfuse dependency download failed, try manual installation
+cask "cryptomator"  # Failed: Download timeout (504 error) - try manual installation or wait for network stability
 cask "keepassxc"
 cask "macpass"
 
 # Development & Design Tools
 cask "sf-symbols"
-cask "injectioniii"
+# cask "injectioniii"  # Failed: No cask with this name exists - this app is not available in Homebrew Cask
 cask "asset-catalog-tinkerer"
 cask "visual-studio-code"
 cask "openinterminal-lite"
@@ -60,9 +60,9 @@ cask "obsidian"
 
 # Utilities & System Enhancements
 cask "appcleaner"
-cask "vimac"
+# cask "vimac"  # Failed: No cask with this name exists - consider alternatives: vimr, vimcal, or via
 cask "meetingbar"
-cask "klack"
+# cask "klack"  # Failed: No cask with this name exists - you might mean 'slack' instead
 cask "keyboardcleantool"
 cask "hiddenbar"
 cask "shottr"
