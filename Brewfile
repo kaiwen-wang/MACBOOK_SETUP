@@ -3,13 +3,12 @@
 
 # Taps
 tap "blacktop/tap"
-tap "smudge/smudge"  # Add this tap
+# tap "smudge/smudge"  # Commented out: tap not working for nightlight formula
 
 # Formulae
 brew "fish"
 brew "lporg"
-brew "mas"         # Mac App Store CLI (Required for Xcode/Testflight)
-brew "nightlight"    # CLI for Night Shift control
+# brew "nightlight"    # Commented out: formula unreadable, install manually
 
 # Browsers
 cask "google-chrome"
@@ -70,11 +69,12 @@ cask "shottr"
 # Recording & Streaming
 cask "keycastr"
 cask "obs"
+cask "cryptomator"
 
-# Mac App Store
-# Requires you to be logged into the App Store manually first
-mas "Xcode", id: 497799835
-mas "TestFlight", id: 899247664
 
-# Note: Git is included with Xcode Command Line Tools
-# Install with: xcode-select --install
+
+# Manual install
+- Pixelmator Pro, Final Cut related stuff
+- Goodlinks
+- TestFlight, XCode
+- RiseupVPN

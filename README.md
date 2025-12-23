@@ -74,3 +74,21 @@ git config --global user.email "USER_EMAIL"
 
 <!-- Do mise, npm other version setups -->
 TODO put dock on side again
+
+
+<!-- show path  bar for finder -->
+
+terminal command for OPTION as META key (in terminal settings) on ALACRITTY
+
+`mkdir -p ~/.config/alacritty && printf '[window]\noption_as_alt = "Both"\n' > ~/.config/alacritty/alacritty.toml`
+
+
+MeetingBar Settings
+
+
+Language settings add chinese, then all keyboard to switch between them
+
+
+
+
+wINDOWS SETTINGS -> DEKSTOP & DOCK PREfER TABS WHEN OPENING NEW DOCUMETNS ALWAYS
