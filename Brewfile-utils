@@ -1,5 +1,5 @@
-# Brewfile.utils - Small system utilities
-# Install with: brew bundle --file=Brewfile.utils
+# Brewfile-utils - Small system utilities
+# Install with: brew bundle --file=Brewfile-utils
 
 # Taps
 tap "blacktop/tap"
@@ -25,6 +25,8 @@ cask "openinterminal-lite"
 cask "openineditor-lite"
 cask "macpass"
 cask "cryptomator"
+cask "raycast"
+cask "qbserve"
 
 # Recording & Streaming
 cask "keycastr"

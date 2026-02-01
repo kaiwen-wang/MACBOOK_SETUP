@@ -28,8 +28,8 @@ Two Brewfiles are provided - utilities (small/fast) and main applications (large
 
 ```bash
 cd ~/Downloads
-curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/main/Brewfile.utils?v=$(date +%s)" -o Brewfile.utils
-brew bundle install --file=Brewfile.utils --verbose
+curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/main/Brewfile-utils?v=$(date +%s)" -o Brewfile-utils
+brew bundle install --file=Brewfile-utils --verbose
 ```
 
 ### Install Main Applications (large)

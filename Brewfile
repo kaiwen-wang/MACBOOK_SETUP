@@ -29,9 +29,7 @@ cask "ogdesign-eagle"
 # Productivity & Knowledge
 cask "anki"
 cask "netnewswire"
-cask "raycast"
 cask "zotero"
-cask "qbserve"
 cask "obsidian"
 
 # Recording & Streaming
