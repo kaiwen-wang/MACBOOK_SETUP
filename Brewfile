@@ -7,7 +7,7 @@ tap "blacktop/tap"
 
 # Formulae
 brew "fish"
-brew "lporg"
+brew "blacktop/tap/lporg"
 # brew "nightlight"    # Commented out: formula unreadable, install manually
 
 # Browsers
