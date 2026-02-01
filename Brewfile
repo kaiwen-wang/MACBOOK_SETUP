@@ -8,7 +8,6 @@ cask "google-chrome"
 cask "whatsapp"
 cask "zoom"
 cask "discord"
-cask "wechat"
 cask "telegram"
 cask "signal"
 
