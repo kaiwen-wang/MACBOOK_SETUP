@@ -28,7 +28,7 @@ Two Brewfiles are provided - utilities (small/fast) and main applications (large
 
 ```bash
 cd ~/Downloads
-curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/Brewfile.utils -o Brewfile.utils
+curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/main/Brewfile.utils?v=$(date +%s)" -o Brewfile.utils
 brew bundle install --file=Brewfile.utils --verbose
 ```
 
@@ -36,14 +36,14 @@ brew bundle install --file=Brewfile.utils --verbose
 
 ```bash
 cd ~/Downloads
-curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/Brewfile -o Brewfile
+curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/main/Brewfile?v=$(date +%s)" -o Brewfile
 brew bundle install --verbose
 ```
 
 ## Restore Launchpad from Configuration
 
 ```bash
-curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/tests-MacBook-Air.yml -o /tmp/launchpad-config.yml && lporg load --config /tmp/launchpad-config.yml
+curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/main/tests-MacBook-Air.yml?v=$(date +%s)" -o /tmp/launchpad-config.yml && lporg load --config /tmp/launchpad-config.yml
 ```
 
 ## Grey Wallpaper (NOT WORKING TODO)
