@@ -61,10 +61,13 @@ bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/
 ## Next steps
 
 - Log into Chrome
-    - Sync extensions, bookmarks, settings, New Tab Redirect
+    - Sync extensions, bookmarks, settings, New Tab Redirect.
+    - Don't enable telemetry stuff.
 - Log into VS Code
     - Sync extensions
     - Set fish as default terminal (select default terminal)
+
+Use your 
 
 ```bash
 git config --global user.name "USER_NAME"
