@@ -20,6 +20,11 @@ cask "meetingbar"
 cask "keyboardcleantool"
 cask "hiddenbar"
 cask "shottr"
+cask "asset-catalog-tinkerer"
+cask "openinterminal-lite"
+cask "openineditor-lite"
+cask "macpass"
+cask "cryptomator"
 
 # Recording & Streaming
 cask "keycastr"

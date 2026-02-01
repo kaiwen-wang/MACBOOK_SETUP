@@ -19,16 +19,11 @@ cask "sublime-text"
 cask "mullvadvpn"
 cask "yubico-yubikey-manager"
 cask "veracrypt"
-cask "cryptomator"
 cask "keepassxc"
-cask "macpass"
 
 # Development & Design Tools
 cask "sf-symbols"
-cask "asset-catalog-tinkerer"
 cask "visual-studio-code"
-cask "openinterminal-lite"
-cask "openineditor-lite"
 cask "figma"
 cask "ogdesign-eagle"
 
