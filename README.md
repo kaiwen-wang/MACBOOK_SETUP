@@ -26,7 +26,7 @@ First, download the Brewfile and install the bundle extension:
 
 ```bash
 curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/Brewfile -o ~/Downloads/Brewfile
-cd ~/Downloads && brew bundle install
+cd ~/Downloads && brew bundle install --verbose
 ```
 
 ## Restore Launchpad from Configuration

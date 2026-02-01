@@ -74,7 +74,7 @@ cask "cryptomator"
 
 
 # Manual install
-- Pixelmator Pro, Final Cut related stuff
-- Goodlinks
-- TestFlight, XCode
-- RiseupVPN
+# - Pixelmator Pro, Final Cut related stuff
+# - Goodlinks
+# - TestFlight, XCode
+# - RiseupVPN
