@@ -22,11 +22,22 @@ bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/
 
 ## Install Software with Brewfile
 
-First, download the Brewfile and install the bundle extension:
+Two Brewfiles are provided - utilities (small/fast) and main applications (large).
+
+### Install Utilities (small)
 
 ```bash
-curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/Brewfile -o ~/Downloads/Brewfile
-cd ~/Downloads && brew bundle install --verbose
+cd ~/Downloads
+curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/Brewfile.utils -o Brewfile.utils
+brew bundle install --file=Brewfile.utils --verbose
+```
+
+### Install Main Applications (large)
+
+```bash
+cd ~/Downloads
+curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/Brewfile -o Brewfile
+brew bundle install --verbose
 ```
 
 ## Restore Launchpad from Configuration

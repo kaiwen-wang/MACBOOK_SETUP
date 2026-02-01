@@ -1,0 +1,25 @@
+# Brewfile.utils - Small system utilities
+# Install with: brew bundle --file=Brewfile.utils
+
+# Taps
+tap "blacktop/tap"
+
+# Formulae
+brew "fish"
+brew "blacktop/tap/lporg"
+
+# Terminal
+cask "alacritty"
+
+# Window Management
+cask "rectangle"
+
+# Utilities & System Enhancements
+cask "appcleaner"
+cask "meetingbar"
+cask "keyboardcleantool"
+cask "hiddenbar"
+cask "shottr"
+
+# Recording & Streaming
+cask "keycastr"
