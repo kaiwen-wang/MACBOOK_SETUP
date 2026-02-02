@@ -72,6 +72,8 @@ bash <(curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs
 bash <(curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/set_finder_default_downloads.sh?v=$(date +%s)")
 ```
 
+Go to settings (CMD + ,) hide recents, Airdrop. Show all other folders. Show filename extensions.
+
 ## Night Shift
 - Some way to set it permanently instead of scheduled? would be nice.
 
@@ -99,6 +101,14 @@ git config --global user.email "USER_EMAIL"
 
 
 
+### OpeninTerminal-Lite:
+
+`defaults write wang.jianing.app.OpenInTerminal-Lite LiteDefaultTerminal Alacritty`
+
+To open as default. https://github.com/Ji4n1ng/OpenInTerminal/blob/master/Resources/README-Lite.md
+
+CMD + drag into Finder window.
+
 
 ### Settings
 
@@ -109,3 +119,5 @@ Desktop & Dock -> Windows -> PREfER TABS WHEN OPENING NEW DOCUMETNS ALWAYS
 
 Menu Bar Spacing
 MS Outook
+Goodlinks
+Vimac
