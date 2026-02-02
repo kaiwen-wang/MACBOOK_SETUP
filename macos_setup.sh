@@ -27,7 +27,7 @@ defaults write com.apple.dock persistent-others -array-add "<dict><key>tile-data
 
 echo "› Applying other Dock settings..."
 # Position the Dock on the left of the screen
-# defaults write com.apple.dock orientation -string "left"
+defaults write com.apple.dock orientation -string "left"
 
 # Turn on Dock auto-hiding
 defaults write com.apple.dock autohide -bool true
