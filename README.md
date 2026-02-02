@@ -66,6 +66,12 @@ bash <(curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs
 bash <(curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/desktop_cleanup.sh?v=$(date +%s)")
 ```
 
+## Finder Default Location (~/Downloads)
+
+```bash
+bash <(curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/set_finder_default_downloads.sh?v=$(date +%s)")
+```
+
 ## Night Shift
 - Some way to set it permanently instead of scheduled? would be nice.
 
