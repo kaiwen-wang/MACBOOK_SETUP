@@ -1,7 +1,7 @@
 ## Dock
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/macos_setup.sh)
+bash <(curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/macos_setup.sh?v=$(date +%s)")
 ```
 
 ## Launchpad MacOS 26 (requires restart)
@@ -9,7 +9,7 @@ bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/
 For some reason disappears spotlight
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/re_enable_launchpad.sh)
+bash <(curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/re_enable_launchpad.sh?v=$(date +%s)")
 ```
 
 ## Brew
@@ -49,21 +49,21 @@ curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/main/tests-
 ## Grey Wallpaper (NOT WORKING TODO)
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/set_grey_wallpaper.sh)
+bash <(curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/set_grey_wallpaper.sh?v=$(date +%s)")
 ```
 
-curl -sL https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/main/set_grey_wallpaper.sh | bash
+curl -sL "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/main/set_grey_wallpaper.sh?v=$(date +%s)" | bash
 
 ## Change default shell to fish
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/fish_default_shell.sh)
+bash <(curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/fish_default_shell.sh?v=$(date +%s)")
 ```
 
 ## Desktop Cleanup (Hot Corners & Widgets)
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/desktop_cleanup.sh)
+bash <(curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/desktop_cleanup.sh?v=$(date +%s)")
 ```
 
 ## Night Shift
