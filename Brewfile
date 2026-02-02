@@ -16,7 +16,6 @@ cask "sublime-text"
 
 # Security & Privacy
 cask "mullvadvpn"
-cask "yubico-yubikey-manager"
 cask "veracrypt"
 cask "keepassxc"
 
