@@ -22,5 +22,5 @@ echo "✅ Background reliably set to grey."
 
 # 4. Disable system transparency
 defaults write com.apple.universalaccess reduceTransparency -bool true
-killall Dock 2>/dev/null || true
-echo "✅ System transparency disabled."
+killall Dock SystemUIServer 2>/dev/null || true
+echo "✅ System transparency disabled (requires logout/login for full effect)."
