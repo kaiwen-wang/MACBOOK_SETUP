@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the grey color (RRGGBB hex format)
-COLOR_HEX="808080"
+COLOR_HEX="545554"
 
 # Set the path for our generated wallpaper
 OUTPUT_DIR="${HOME}/Pictures/Solid_Colors"
@@ -19,3 +19,8 @@ magick -size 1x1 xc:#$COLOR_HEX "$FULL_PATH"
 osascript -e "tell application \"System Events\" to set picture of every desktop to \"$FULL_PATH\""
 
 echo "✅ Background reliably set to grey."
+
+# 4. Disable system transparency
+defaults write com.apple.universalaccess reduceTransparency -bool true
+killall Dock 2>/dev/null || true
+echo "✅ System transparency disabled."

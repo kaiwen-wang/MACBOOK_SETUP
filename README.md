@@ -6,7 +6,7 @@ bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/
 
 ## Launchpad MacOS 26 (requires restart)
 
-for some reason disappears spotlight
+For some reason disappears spotlight
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/re_enable_launchpad.sh)
@@ -39,6 +39,8 @@ brew bundle install --verbose
 ```
 
 ## Restore Launchpad from Configuration
+
+Depends upon brew installing lporg first.
 
 ```bash
 curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/main/tests-MacBook-Air.yml?v=$(date +%s)" -o /tmp/launchpad-config.yml && lporg load --config /tmp/launchpad-config.yml

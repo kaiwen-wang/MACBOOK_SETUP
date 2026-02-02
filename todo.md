@@ -5,7 +5,6 @@ Set up default terminal for openineditor-lite
 # Finder, dock
 
 set finder default opening location to downloads
-
 <!-- dock setup add download sfolder -->
 
 # Settings
