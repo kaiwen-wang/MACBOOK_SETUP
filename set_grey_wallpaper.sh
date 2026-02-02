@@ -21,6 +21,7 @@ osascript -e "tell application \"System Events\" to set picture of every desktop
 echo "✅ Background reliably set to grey."
 
 # 4. Disable system transparency
-defaults write com.apple.universalaccess reduceTransparency -bool true
-killall Dock SystemUIServer 2>/dev/null || true
-echo "✅ System transparency disabled (requires logout/login for full effect)."
+# TRY OTR EMOVE SYSTEM TRANSPARENCY
+# defaults write com.apple.universalaccess reduceTransparency -bool true
+# killall Dock SystemUIServer 2>/dev/null || true
+# echo "✅ System transparency disabled (requires logout/login for full effect)."

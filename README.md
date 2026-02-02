@@ -46,13 +46,13 @@ Depends upon brew installing lporg first.
 curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/main/tests-MacBook-Air.yml?v=$(date +%s)" -o /tmp/launchpad-config.yml && lporg load --config /tmp/launchpad-config.yml
 ```
 
-## Grey Wallpaper (NOT WORKING TODO)
+## Grey Wallpaper
 
 ```bash
 bash <(curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/set_grey_wallpaper.sh?v=$(date +%s)")
 ```
 
-curl -sL "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/main/set_grey_wallpaper.sh?v=$(date +%s)" | bash
+Spotlight -> Reduce Transparency
 
 ## Change default shell to fish
 
@@ -76,9 +76,10 @@ bash <(curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs
     - Don't enable telemetry stuff.
 - Log into VS Code
     - Sync extensions
-    - Set fish as default terminal (select default terminal)
+    <!-- - Set fish as default terminal (select default terminal) -->
 
-Use your 
+
+### Git. Use github noreply email.
 
 ```bash
 git config --global user.name "USER_NAME"
@@ -86,23 +87,19 @@ git config --global user.email "USER_EMAIL"
 ```
 
 
-<!-- Do mise, npm other version setups -->
-<!-- TODO put dock on side again -->
-
-
-<!-- show path  bar for finder -->
-
-terminal command for OPTION as META key (in terminal settings) on ALACRITTY
+### Terminal command for OPTION as META key (in terminal settings) on ALACRITTY
 
 `mkdir -p ~/.config/alacritty && printf '[window]\noption_as_alt = "Both"\n' > ~/.config/alacritty/alacritty.toml`
 
 
-MeetingBar Settings
 
 
-Language settings add chinese, then all keyboard to switch between them
+### Settings
+
+Desktop & Dock -> Windows -> PREfER TABS WHEN OPENING NEW DOCUMETNS ALWAYS
 
 
+### Applications not in Brewfile
 
-
-wINDOWS SETTINGS -> DEKSTOP & DOCK PREfER TABS WHEN OPENING NEW DOCUMETNS ALWAYS
+Menu Bar Spacing
+MS Outook
