@@ -4,8 +4,6 @@
 bash <(curl -s https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/macos_setup.sh)
 ```
 
-todo: dock should be on elft
-
 ## Launchpad MacOS 26 (requires restart)
 
 for some reason disappears spotlight
@@ -87,7 +85,7 @@ git config --global user.email "USER_EMAIL"
 
 
 <!-- Do mise, npm other version setups -->
-TODO put dock on side again
+<!-- TODO put dock on side again -->
 
 
 <!-- show path  bar for finder -->
