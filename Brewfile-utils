@@ -7,6 +7,7 @@ tap "blacktop/tap"
 # Formulae
 brew "fish"
 brew "blacktop/tap/lporg"
+brew "smudge/smudge/nightlight"
 
 # Terminal
 cask "alacritty"
