@@ -121,3 +121,9 @@ Menu Bar Spacing
 MS Outook
 Goodlinks
 Vimac
+
+### Disable startup sound
+
+```bash
+sudo nvram SystemAudioVolume=%80
+```
