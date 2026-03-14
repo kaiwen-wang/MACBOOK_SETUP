@@ -1,3 +1,7 @@
+pixelmator
+
+rm '/Users/USERNAME/Library/Group Containers/4R6749AYRE.com.pixelmator/Library/Preferences/4R6749AYRE.com.pixelmator.plist'
+
 # Apps
 
 Set up default terminal for openineditor-lite
@@ -17,3 +21,9 @@ Was KeePassXC minimization appearance faster?
 
 <!-- remove hot corners annoying -->
 <!-- EDIT Widgets which are ANNOYING. -->
+
+
+
+
+
+FIREWALL for MacoS? sometimes disabled by default?

@@ -1,3 +1,13 @@
+## Before setting things up
+
+Username as real name:
+- Pros: if you lose your computer, someone can track you down to return it.
+- Cons: if you lose your computer, people know who it belongs to and can obtain more information about it.
+
+## Spotlight Search Categories:
+
+
+
 ## Dock
 
 ```bash

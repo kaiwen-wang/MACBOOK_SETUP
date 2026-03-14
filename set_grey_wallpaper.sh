@@ -20,7 +20,12 @@ osascript -e "tell application \"System Events\" to set picture of every desktop
 
 echo "✅ Background reliably set to grey."
 
-# 4. Disable system transparency
+# 4. Clean up: give macOS a moment to cache the wallpaper, then remove the folder
+sleep 2
+rm -rf "$OUTPUT_DIR"
+echo "✅ Cleaned up $OUTPUT_DIR."
+
+# 5. Disable system transparency
 # TRY OTR EMOVE SYSTEM TRANSPARENCY
 # defaults write com.apple.universalaccess reduceTransparency -bool true
 # killall Dock SystemUIServer 2>/dev/null || true
