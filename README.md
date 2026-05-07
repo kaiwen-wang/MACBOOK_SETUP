@@ -94,8 +94,6 @@ Go to settings (CMD + ,) hide recents, Airdrop. Show all other folders. Show fil
     - Don't enable telemetry stuff.
 - Log into VS Code
     - Sync extensions
-    <!-- - Set fish as default terminal (select default terminal) -->
-
 
 ### Git. Use github noreply email.
 
@@ -113,26 +111,27 @@ git config --global user.email "USER_EMAIL"
 
 ### OpeninTerminal-Lite:
 
-`defaults write wang.jianing.app.OpenInTerminal-Lite LiteDefaultTerminal Alacritty`
-
-To open as default. https://github.com/Ji4n1ng/OpenInTerminal/blob/master/Resources/README-Lite.md
-
-CMD + drag into Finder window.
-
+- To open as default.
+    - `defaults write wang.jianing.app.OpenInTerminal-Lite LiteDefaultTerminal Alacritty`
+    - https://github.com/Ji4n1ng/OpenInTerminal/blob/master/Resources/README-Lite.md
+- CMD + drag into Finder window.
 
 ### Settings
 
-Desktop & Dock -> Windows -> PREfER TABS WHEN OPENING NEW DOCUMETNS ALWAYS
-
+- Desktop & Dock -> Windows -> PREFER TABS WHEN OPENING NEW DOCUMETNS ALWAYS
+    - Reason: so Alacritty doesn't open 1000 new windows
 
 ### Applications not in Brewfile
+- [Menu Bar Spacing](https://sindresorhus.com/menu-bar-spacing) - set to 8
+- MS Outlook
+- Goodlinks
+- Vimac
 
-Menu Bar Spacing
-MS Outook
-Goodlinks
-Vimac
+In future, copy apps from a drive folder.
 
 ### Disable startup sound
+
+Run it when the startup sound is loud/distracting enough during daily use.
 
 ```bash
 sudo nvram SystemAudioVolume=%80
