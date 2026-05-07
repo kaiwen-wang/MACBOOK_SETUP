@@ -1,12 +1,3 @@
-## Before setting things up
-
-Username as real name:
-- Pros: if you lose your computer, someone can track you down to return it.
-- Cons: if you lose your computer, people know who it belongs to and can obtain more information about it.
-
-## Spotlight Search Categories:
-
-
 
 ## Dock
 
@@ -22,13 +13,16 @@ For some reason disappears spotlight
 bash <(curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/re_enable_launchpad.sh?v=$(date +%s)")
 ```
 
+Not often used, am staying on MacOS 15 for now because glass makes finder bulky
+
 ## Brew
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-## Install Software with Brewfile
+
+## Applications
 
 Two Brewfiles are provided - utilities (small/fast) and main applications (large).
 
@@ -48,6 +42,9 @@ curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/main/Brewfi
 brew bundle install --verbose
 ```
 
+
+## Brewfile Dependent Things
+
 ## Restore Launchpad from Configuration
 
 Depends upon brew installing lporg first.
@@ -57,6 +54,8 @@ curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/main/tests-
 ```
 
 ## Grey Wallpaper
+
+Requires imagemagick on brew
 
 ```bash
 bash <(curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/set_grey_wallpaper.sh?v=$(date +%s)")
@@ -84,8 +83,6 @@ bash <(curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs
 
 Go to settings (CMD + ,) hide recents, Airdrop. Show all other folders. Show filename extensions.
 
-## Night Shift
-- Some way to set it permanently instead of scheduled? would be nice.
 
 ## Next steps
 
@@ -96,6 +93,8 @@ Go to settings (CMD + ,) hide recents, Airdrop. Show all other folders. Show fil
     - Sync extensions
 
 ### Git. Use github noreply email.
+
+Necessary for git pushing, not necessarily git clone.
 
 ```bash
 git config --global user.name "USER_NAME"
@@ -128,6 +127,10 @@ git config --global user.email "USER_EMAIL"
 - Vimac
 
 In future, copy apps from a drive folder.
+
+## Not super important
+
+### Night Shift
 
 ### Disable startup sound
 
