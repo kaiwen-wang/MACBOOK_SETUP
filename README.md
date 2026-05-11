@@ -54,7 +54,7 @@ brew bundle install --verbose
 Depends upon brew installing lporg first.
 
 ```bash
-curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/main/tests-MacBook-Air.yml?v=$(date +%s)" -o /tmp/launchpad-config.yml && lporg load --config /tmp/launchpad-config.yml
+curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/main/lporg-setup.yml?v=$(date +%s)" -o /tmp/launchpad-config.yml && lporg load --config /tmp/launchpad-config.yml
 ```
 
 ## Grey Wallpaper
@@ -186,3 +186,4 @@ KeePassXC missing settings
 Was KeePassXC minimization appearance faster?
 Chrome Extensions
 Bookmarks list
+Better apps list

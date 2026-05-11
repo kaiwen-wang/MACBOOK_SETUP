@@ -14,7 +14,7 @@ defaults write com.apple.dock wvous-bl-modifier -int 0
 defaults write com.apple.dock wvous-br-corner -int 1
 defaults write com.apple.dock wvous-br-modifier -int 0
 
-# Disable Dashboard
+# Disable Dashboard - widgetes/not working
 defaults write com.apple.dashboard mcx-disabled -bool true
 
 # Restart Dock to apply changes
