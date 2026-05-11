@@ -4,7 +4,6 @@ Remove widgets.
 
 Change wallpaper/screen
 
-
 Delete useless apps
 - Apple Music
 - Journal
@@ -12,15 +11,11 @@ Delete useless apps
 - Apple Store
 - iMovie, Garageband, Keynote, Apple Store, numbers, Pages, iTunes Store, Podcasts, Games, TV
 
-
 Throw most utilities into folders until I figure out what to do with it
-
 
 Turn haptics off
 
-
 Night Shift always on
-
 
 Remove Control Cnnter extra secitons
 

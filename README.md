@@ -1,9 +1,13 @@
-
 ## Dock
+
+Note: `?v=$(date +%s)` is for cache invalidation so curl gets latest version
+
 
 ```bash
 bash <(curl -s "https://raw.githubusercontent.com/kaiwen-wang/MACBOOK_SETUP/refs/heads/main/macos_setup.sh?v=$(date +%s)")
 ```
+
+Sometimes this script needs to run twice
 
 ## Launchpad MacOS 26 (requires restart)
 
@@ -130,7 +134,7 @@ In future, copy apps from a drive folder.
 
 ### LaTeX
 
-Packages in last line are things I use for resume.
+Packages in last line are things I use for resume. Tectonic might be more modern though vs LaTeX Workshop/a distribution.
 
 ```bash
 # LaTeX (BasicTeX) setup
@@ -151,3 +155,34 @@ Run it when the startup sound is loud/distracting enough during daily use.
 ```bash
 sudo nvram SystemAudioVolume=%80
 ```
+
+### How to keep using Pixelmator Trial
+
+```
+rm '/Users/USERNAME/Library/Group Containers/4R6749AYRE.com.pixelmator/Library/Preferences/4R6749AYRE.com.pixelmator.plist'
+```
+
+### Firewall
+
+Firewall is off by default. Search in spotlight.
+
+### Keyboard
+
+Language settings add chinese, then pinyin keyboard to switch between them
+
+- Show in Menu BAR on
+- Correct spelling auto OFF
+- Capitalize words auto OFF
+- Inline predictive text OFF
+- Period double space OFF
+- Use Smart Quotes and dashes off
+- Select next soruce in language on
+
+
+## Todo
+
+Qbserve settings
+KeePassXC missing settings
+Was KeePassXC minimization appearance faster?
+Chrome Extensions
+Bookmarks list
