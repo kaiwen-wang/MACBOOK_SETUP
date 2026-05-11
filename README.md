@@ -128,7 +128,19 @@ git config --global user.email "USER_EMAIL"
 
 In future, copy apps from a drive folder.
 
-## Not super important
+### LaTeX
+
+Packages in last line are things I use for resume.
+
+```bash
+# LaTeX (BasicTeX) setup
+brew install --cask basictex
+fish_add_path (ls -d /usr/local/texlive/*/bin/universal-darwin | tail -1)
+sudo tlmgr update --self
+sudo tlmgr install latexmk soul enumitem adforn svn-prov fixtounicode
+```
+
+## Lower priority
 
 ### Night Shift
 
