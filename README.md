@@ -187,3 +187,4 @@ Was KeePassXC minimization appearance faster?
 Chrome Extensions
 Bookmarks list
 Better apps list
+VS Code Extensions
