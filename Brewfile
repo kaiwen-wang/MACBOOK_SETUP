@@ -15,7 +15,7 @@ cask "signal"
 cask "sublime-text"
 
 # Security & Privacy
-cask "mullvadvpn"
+# cask "mullvadvpn"
 cask "veracrypt"
 cask "keepassxc"
 

@@ -162,9 +162,19 @@ sudo nvram SystemAudioVolume=%80
 rm '/Users/USERNAME/Library/Group Containers/4R6749AYRE.com.pixelmator/Library/Preferences/4R6749AYRE.com.pixelmator.plist'
 ```
 
+### MacOS Screen Dim Timing
+
+Brightness varying a lot is random and annoying. (Displays)
+
+`sudo pmset -a lessbright`
+
 ### Firewall
 
 Firewall is off by default. Search in spotlight.
+
+`sudo /usr/libexec/ApplicationFirewall/socketfilterfw --setglobalstate on`
+
+`/usr/libexec/ApplicationFirewall/socketfilterfw --getglobalstate`
 
 ### Keyboard
 
