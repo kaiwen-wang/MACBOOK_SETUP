@@ -186,7 +186,15 @@ Language settings add chinese, then pinyin keyboard to switch between them
 - Inline predictive text OFF
 - Period double space OFF
 - Use Smart Quotes and dashes off
-- Select next soruce in language on
+- Select next source in language on
+
+### Prevent early display dim/shutoff
+
+```bash
+sudo pmset -a displaysleep 0
+sudo pmset -a sleep 0
+sudo pmset -a lessbright 0
+```
 
 
 ## Todo
