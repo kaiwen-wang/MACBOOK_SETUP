@@ -1,0 +1,31 @@
+{
+  "ExtensionInstallForceList": [
+    { "id": "gcaimhkfmliahedmeklebabdgagipbia", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "nmmhkkegccagdldgiimedpiccmgmieda", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "eimadpbcbfnmbkopoojfekhnkhdbieeh", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "kchgllkpfcggmdaoopkhlkbcokngahlg", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "lieogkinebikhdchceieedcigeafdkid", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "dihloblpkeiddiaojbagoecedbfpifdj", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "gjldcdngmdknpinoemndlidpcabkggco", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "ffabmkklhbepgcgfonabamgnfafbdlkn", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "ghbmnnjooekpmoecnnnilnnbdlolhkhi", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "aapbdbdomjkkjkaonfhkkikfgjllcleb", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "bcjindcccaagfpapjjmafapmmgkkhgoa", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "oboonakemofpalcgghocfoadofidjkkk", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "icpgjfneehieebagbmdbhnlpiopdcmna", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "dneaehbmnbhcippjikoajpoabadpodje", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "bigjakhahgnccheaompmgebkncglllel", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "hkgfoiooedgoejojocmhlaklaeopbecg", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "kbmfpngjjgdllneeigpgjifpgocmfgmb", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "kdpiifibhndjebamiejhigjcncjpddbo", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "mpiodijhokgodhhofbcjdecpffjipkle", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "dgognhgbpdoeidccnbfhohblklhbbomh", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "ddkjiahejlhfcafbddmgiahcphecmpfh", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "bongjkoajofkfpofginnhecihgaeldpe", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "nffaoalbilbmmfgbnbgppjihopabppdk", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "gppongmhjkpfnbhagpmjfkannfbllamg", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "fpnmgdkabkmnadcjpehmlllkndpkmiak", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "jabopobgcpjmedljpbcaablpmlmfcogm", "update_url": "https://clients2.google.com/service/update2/crx" },
+    { "id": "kkmlkkjojmombglmlpbpapmhcaljjkde", "update_url": "https://clients2.google.com/service/update2/crx" }
+  ]
+}
