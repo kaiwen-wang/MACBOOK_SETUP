@@ -196,12 +196,15 @@ sudo pmset -a sleep 0
 sudo pmset -a lessbright 0
 ```
 
+### KeepassXC Settings
+
+` ~/Library/Application Support/KeePassXC/keepassxc.ini`
+
+Add contents from `keepassxc.ini`
+
 
 ## Todo
 
-Qbserve settings
-KeePassXC missing settings
-Was KeePassXC minimization appearance faster?
 Chrome Extensions
 Bookmarks list
 Better apps list
