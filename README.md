@@ -203,9 +203,13 @@ sudo pmset -a lessbright 0
 Add contents from `keepassxc.ini`
 
 
+### Chrome Extensions
+
+`bash download-crx.sh`
+
+
 ## Todo
 
 Chrome Extensions
-Bookmarks list
 Better apps list
 VS Code Extensions
