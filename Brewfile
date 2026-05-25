@@ -4,13 +4,6 @@
 # Browsers
 cask "google-chrome"
 
-# Communication
-cask "whatsapp"
-cask "zoom"
-cask "discord"
-cask "telegram"
-cask "signal"
-
 # Editors
 cask "sublime-text"
 
@@ -39,3 +32,4 @@ cask "obs"
 # - Goodlinks
 # - TestFlight, XCode
 # - RiseupVPN
+# MDGridTable

@@ -32,3 +32,6 @@ cask "qbserve"
 
 # Recording & Streaming
 cask "keycastr"
+
+
+# vimac

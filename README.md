@@ -94,7 +94,7 @@ Go to settings (CMD + ,) hide recents, Airdrop. Show all other folders. Show fil
     - Sync extensions, bookmarks, settings, New Tab Redirect.
     - Don't enable telemetry stuff.
 - Log into VS Code
-    - Sync extensions
+    - Or restore from `vscode/` instead of Settings Sync — see [VS Code](#vs-code) below.
 
 ### Git. Use github noreply email.
 
@@ -198,18 +198,22 @@ sudo pmset -a lessbright 0
 
 ### KeepassXC Settings
 
-` ~/Library/Application Support/KeePassXC/keepassxc.ini`
+`~/Library/Application Support/KeePassXC/keepassxc.ini`
 
 Add contents from `keepassxc.ini`
 
 
-### Chrome Extensions
+### Chrome Extensions (Helium)
 
-`bash download-crx.sh`
+Helium is ungoogled-chromium, so the Web Store is disabled and `ExtensionInstallForcelist`
+policy can't auto-install anything. Install manually instead:
 
+1. `bash download-crx.sh` — downloads every extension in `chrome-extensions.json`
+   into `helium-crx/` (pulls CRX files straight from Google's update endpoint).
+2. In Helium open `helium://extensions`, enable **Developer mode**, and drag the
+   `.crx` files from `helium-crx/` onto the page.
+3. For one-click installs + auto-updates afterward, install the
+   [chromium-web-store](https://github.com/NeverDecaf/chromium-web-store) helper
+   (drag its `.crx` in the same way).
 
-## Todo
-
-Chrome Extensions
-Better apps list
-VS Code Extensions
+`chrome-extensions.json` is the source list of extension IDs.
