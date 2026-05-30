@@ -1,0 +1,1 @@
+figure out how to have agent convos relative to each folder

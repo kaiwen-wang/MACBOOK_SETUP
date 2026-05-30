@@ -217,3 +217,4 @@ policy can't auto-install anything. Install manually instead:
    (drag its `.crx` in the same way).
 
 `chrome-extensions.json` is the source list of extension IDs.
+
